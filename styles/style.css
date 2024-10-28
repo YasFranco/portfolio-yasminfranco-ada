@@ -36,23 +36,23 @@ header nav {
     align-items: center;
 }
 
-.hero-title {
+.hero-container h1 {
     color: #f3e9e9;
     font-weight: 600;
     font-size: 30px;
 }
 
-.hero-text {
+.hero-container p {
     text-align: center;
     color: #f3e9e9;
     font-weight: 300;
 }
 
-.hero-name {
+.hero-container span {
     color: #F65121
 }
 
-.hero-button {
+.hero-container button {
     margin: 10px;
     background-color: #292A2E;
     color: #f3e9e9;
@@ -63,7 +63,7 @@ header nav {
     transition-duration: 0.4s;
 }
 
-.hero-button:hover {
+.hero-container button:hover {
     background-color: #F65121;
     color: #f3e9e9;
 }
@@ -77,16 +77,19 @@ header nav {
     text-align: center;
 }
 
-.section-description {
+.section-text h2{
+    background-color: #292A2E;
+    height: 50px;
+    margin: 10px 0;
+    padding: 8px;
+
+}
+
+.section-text p {
     margin: 15px;
     font-size: small;
 }
 
-.section-title {
-    background-color: #292A2E;
-    height: 50px;
-    margin: 10px 0;
-}
 
 /* --------- cards --------------- */
 
@@ -106,6 +109,6 @@ header nav {
     text-align: center;
 }
 
-.card-img{
+.card-item img{
     width: 100px;
 }
