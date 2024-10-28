@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141517;
+}
+
+
+/* --------------- HEADER ---------------- */
+header{
+    width: 100vw;
+    /* margin: 10px */
+}
+
+header img {
+    height: 50px;
+}
+
+header nav {
+    display: none;
+}
+
+/* ---------------- HERO --------------- */
+
+.hero-container {
+    /* background-color: #292A2E; */
+    height: 600px;
+    background-image: url("../images/bgport.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    color: #f3e9e9;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.hero-text {
+    text-align: center;
+    color: #f3e9e9;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+}
+
+.hero-name {
+    color: #F65121
+}
+
+.hero-button {
+    margin: 10px;
+    background-color: #292A2E;
+    color: #f3e9e9;
+    height: 40px;
+    width: 80px;
+    border: 2px solid #F65121;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+
+.hero-button:hover {
+    background-color: #F65121;
+    color: #f3e9e9;
+}
+
