@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <title>Yasmin Franco</title>
 </head>
 
@@ -26,16 +28,16 @@
     <main>
         <section>
             <div class="hero-container">
-                <h1 >¡Hola Mundo!</h1>
-                <p >Soy <span >YASMIN FRANCO</span>, Desarrolladora Backend en
+                <h1>¡Hola Mundo!</h1>
+                <p>Soy <span>YASMIN FRANCO</span>, Desarrolladora Backend en
                     evolucion. Actualmente formandome en Frontend para
                     transformarme en fullstack</p>
-                <button>Proyectos</button>
+                <button class="button">Proyectos</button>
             </div>
         </section>
         <section>
-            <div class="section-text" >
-                <h2 >Mis conocimientos</h2>
+            <div class="section-text">
+                <h2>Mis conocimientos</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ea rerum distinctio a, repellat
                     autem.</p>
             </div>
@@ -67,18 +69,77 @@
             </div>
         </section>
         <section>
-            <p>aca iria la cita </p>
+            <div class="quote-container">
+                <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, voluptatum nesciunt! Recusandae
+                    reiciendis ullam officia expedita praesentium suscipit aut sint veniam, aperiam laboriosam vero
+                    blanditiis sunt qui eligendi eum doloremque?"</p>
+                <h5>someone</h5>
+            </div>
         </section>
         <section>
-            <p>aca iría el formulario de contacto</p>
+            <div class="section-text">
+                <h2>Mis Proyectos</h2>
+                <p>Estos son algunos de mis proyectos principales tanto de Backend como de Frontend. En cada uno se
+                    detallan las tecnologias utilizadas junto con una breve descripción.</p>
+            </div>
+            <div class="proyect-container">
+                <div class="proyect-item">
+                    <img src="./images/rental-bike.jpeg" alt="rental-bike">
+                    <p>Este proyecto consiste en una API REST diseñada para gestionar un sistema de alquiler de
+                        bicicletas. Utiliza tecnologías como NodeJS y Express, así como otras dependencias como
+                        randomUUID, zod y jsonfile.</p>
+                </div>
+                <div class="proyect-item">
+                    <img src="./images/ecommerce.jpeg" alt="ecommerce">
+                    <p>Tecnologías: React js, Node Js.Desarrollo de
+                        un app web de un e-commerce para la venta de productos de decoración</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <section>
+                <div class="section-text">
+                    <h2>Contactame</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, beatae? Eligendi soluta sapiente
+                        tempore aliquam accusantium et obcaecati nesciunt, libero provident nostrum illo magni excepturi
+                        aspernatur tempora impedit possimus ea.</p>
+                </div>
+                <div class="social-container">
+                    <a href="https://github.com/YasFranco" aria-label="Mi Github"><i
+                            class="fa-brands fa-github"></i>Yasfranco</a>
+                    <a href="www.linkedin.com/in/yasmin-franco-" aria-label="Mi LinkedIn"><i
+                            class="fa-brands fa-linkedin"></i>Yasmin Franco</a>
+                    <a href="www.gmail.com" aria-label="Mi email"><i
+                            class="fa-solid fa-envelope"></i>yasfranco98@gmail.com</a>
+                </div>
+                <div class="section-text">
+                    <h2>Enviame un mensaje</h2>
+                    <form action="" method="post" class="form-container">
+                        <div>
+                            <label for="name">Nombre</label>
+                            <input type="text" name="nombre">
+                        </div>
+                        <div>
+                            <label for="lastname">Apellido</label>
+                            <input type="text" name="lastname">
+                        </div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email">
+                        <label for="message">Tu mensaje</label>
+                        <textarea name="message" cols="30" rows="10"></textarea>
+                    </form>
+                    <button class="button">Enviar</button>
+                </div>
+            </section>
         </section>
     </main>
     <footer>
-        <section>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </section>
+        <div>
+            <a href="https://github.com/YasFranco" aria-label="Mi Github"><i class="fa-brands fa-github"></i></a>
+            <a href="www.linkedin.com/in/yasmin-franco-" aria-label="Mi LinkedIn"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="www.gmail.com" aria-label="Mi email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
         <p>© Copyright 2024. Yasmin Franco</p>
     </footer>
 </body>

@@ -51,8 +51,7 @@ header nav {
 .hero-container span {
     color: #F65121
 }
-
-.hero-container button {
+.button {
     margin: 10px;
     background-color: #292A2E;
     color: #f3e9e9;
@@ -63,7 +62,7 @@ header nav {
     transition-duration: 0.4s;
 }
 
-.hero-container button:hover {
+.button:hover {
     background-color: #F65121;
     color: #f3e9e9;
 }
@@ -112,3 +111,129 @@ header nav {
 .card-item img{
     width: 100px;
 }
+
+/* ------------ CITA ----------- */
+
+.quote-container {
+    background-color: #292A2E;
+    color: #F65121;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px
+}
+
+.quote-container p{
+    font-weight: 300;
+}
+
+.quote-container h5{
+    font-weight: 700;
+}
+
+/* ---------- PROYECTOS ---------- */
+
+.proyect-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyect-item{
+    width: 80%;
+    border: 3px solid #58595D;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    margin: 20px 0;
+    color: #f3e9e9;
+}
+
+.proyect-item img{
+    width: 100px;
+    border-radius: 10px;
+}
+
+/* ---------CONTACTAME ICONOS ------- */
+
+.social-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:10%;
+    gap: 1rem;
+    
+}
+
+.social-container a{
+    text-decoration: none;
+    color: #f3e9e9;
+    transition: transform 0.3s ease, color 0.3s ease;
+
+}
+
+.social-container a:hover {
+    transform: scale(1.1);
+    color: #F65121;
+}
+
+
+
+.fa-github,
+.fa-linkedin,
+.fa-envelope {
+    font-size: 25px;
+    margin: 10px;
+    color:#f3e9e9
+}
+
+
+/* ----------- FORMULARIO ----------- */
+
+.section-text .form-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+    padding:10px;
+    background-color: #292A2E;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    gap: 1rem;
+}
+
+.form-container label{
+    color: #F65121;
+    font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    border: 1px solid #58595D;
+    border-radius: 4px;
+    background-color: #141517;
+    color: #f3e9e9;
+}
+
+/* ------------ FOOTER ------------ */
+
+footer{
+    background-color: #F65121;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+footer i{
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer i:hover{
+    transform: scale(1.3);
+}
+
