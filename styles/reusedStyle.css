@@ -1,0 +1,74 @@
+/* ---- BUTTON ---- */
+
+.button {
+    margin: 10px;
+    background-color: #292A2E;
+    color: #f3e9e9;
+    height: 40px;
+    width: 80px;
+    border: 2px solid #F65121;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+
+.button a {
+    color: #f3e9e9;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #F65121;
+    color: #f3e9e9;
+}
+
+/* ---- SECTIONS ---- */
+
+.section-text {
+    color: #f3e9e9;
+    text-align: center;
+}
+
+.section-text h2 {
+    height: auto;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.section-text p {
+    margin: 15px;
+    font-size: small;
+}
+
+/* ---- ICONS ---- */
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10%;
+    gap: 1rem;
+
+}
+
+.social-container a {
+    text-decoration: none;
+    color: #f3e9e9;
+    transition: transform 0.3s ease, color 0.3s ease;
+
+}
+
+.social-container a:hover {
+    transform: scale(1.1);
+    color: #F65121;
+}
+
+
+
+.fa-github,
+.fa-linkedin,
+.fa-envelope {
+    font-size: 25px;
+    margin: 10px;
+    color: #f3e9e9
+}

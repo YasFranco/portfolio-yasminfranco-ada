@@ -1,0 +1,19 @@
+.quote-container {
+    background-color: #292A2E;
+    color: #F65121;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    margin: 40px 0;
+}
+
+.quote-container p {
+    font-weight: 300;
+}
+
+.quote-container h5 {
+    font-weight: 700;
+}

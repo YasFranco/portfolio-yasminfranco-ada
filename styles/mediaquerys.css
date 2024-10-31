@@ -1,0 +1,192 @@
+@media (min-width: 768px) {
+
+    /* ---- HEADER ---- */
+
+    header section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10px;
+        background-color: #F65121;
+    }
+
+    header nav {
+        display: flex;
+    }
+
+    header nav ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+
+    header nav ul a {
+        text-decoration: none;
+        color: #f3e9e9;
+    }
+
+    /* ---- HERO ---- */
+
+    .hero-container h1 {
+        font-size: 60px;
+    }
+
+    .hero-container p {
+        font-size: 25px;
+    }
+
+    /* ---- REUSED STYLES ---- */
+    .button {
+        width: 120px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .section-text h2 {
+        height: 100px;
+        font-size: 38px;
+    }
+
+    .section-text p {
+        font-size: 25px;
+    }
+
+    /* ---- CONTACT ---- */
+
+    .contact-container .section-text {
+        width: 50%;
+    }
+
+    .contact-container {
+        display: flex;
+    }
+
+    /* ---- CARD ---- */
+
+    .card-item {
+        width: 30%;
+        height: 200px;
+        font-size: 30x;
+        max-width: none;
+    }
+
+    .card-item img {
+        width: 150px;
+    }
+
+    .card-item h5 {
+        font-size: 25px;
+    }
+
+    /* ---- QUOTE ---- */
+
+    .quote-container {
+        height: 400px;
+        font-size: 25px;
+        margin: 50px 0;
+        padding: 20px;
+    }
+
+    /* ---- PROYECT ---- */
+
+    .proyect-container {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .proyect-item {
+        width: 45%
+    }
+
+    /* ---- FORM ---- */
+    
+    .form-container {
+        width: 80%;
+        max-width: 600px;
+    }
+
+    /* ---- FOOTER ---- */
+
+    footer nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer nav ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+
+    footer nav ul a {
+        text-decoration: none;
+        color: #f3e9e9;
+    }
+}
+
+@media (min-width: 1024px){
+
+    /* ---- GENERAL STYLES ---- */
+
+    body{
+        font-size: 18px;
+    }
+
+    /* ---- HERO ---- */
+
+    .hero-container{
+        height: 700px;
+    }
+
+    .hero-container h1{
+        font-size: 70px;
+        width: 60%;
+    }
+
+    /* ---- REUSED STYLES ---- */
+
+    .button{
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    /* ---- CARD ---- */
+
+    .cards-container{
+        gap: 2rem;
+    }
+
+    .card-item{
+        width: 190px;
+        height: auto;
+    }
+
+    /* ---- PROYECT ---- */
+
+    .proyect-container{
+        gap: 40px;
+    }
+
+    .proyect-item{
+        width: 40%;
+    }
+
+    /* ---- FORM ---- */
+
+    .form-container{
+        width: 60%;
+        max-width: 700px;
+        padding: 30px;
+    }
+
+    /* ---- FOOTER ---- */
+
+    footer nav ul{
+        gap: 30px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+}

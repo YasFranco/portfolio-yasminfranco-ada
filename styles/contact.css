@@ -1,0 +1,30 @@
+.section-text .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #292A2E;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 1rem;
+}
+
+.form-container label {
+    color: #F65121;
+    font-weight: bold;
+}
+
+.form-container input {
+    height: 30px;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    border: 1px solid #58595D;
+    border-radius: 4px;
+    background-color: #141517;
+    color: #f3e9e9;
+}
