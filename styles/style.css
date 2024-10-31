@@ -27,8 +27,23 @@ header .nav {
 /* ---------------- HERO --------------- */
 
 .hero-bg {
+    position: relative;
     background-image: url("../images/bgport.png");
+    background-size: cover;
+    background-position: center;
 }
+
+.hero-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
 
 .hero-container {
     height: 600px;
@@ -36,6 +51,8 @@ header .nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
 .hero-container h1 {
@@ -88,11 +105,9 @@ header .nav {
 }
 
 .section-text h2 {
-    background-color: #292A2E;
     height: auto;
     margin: 10px 0;
     padding: 8px;
-
 }
 
 .section-text p {
@@ -117,6 +132,7 @@ header .nav {
     border-radius: 15px;
     border: 2px solid #292A2E;
     text-align: center;
+    max-width: 180px;
 }
 
 .card-item img {
@@ -209,6 +225,7 @@ header .nav {
     display: flex;
     flex-direction: column;
     width: 90%;
+    max-width: 500px;
     margin: 20px auto;
     padding: 10px;
     background-color: #292A2E;
@@ -246,7 +263,7 @@ footer {
     text-align: center;
 }
 
-footer .nav{
+footer .nav {
     display: none;
 }
 
@@ -270,12 +287,12 @@ footer i:hover {
         background-color: #F65121;
     }
 
-    header nav{
+    header nav {
         display: flex;
     }
 
-    header nav ul{
-        display:flex;
+    header nav ul {
+        display: flex;
         gap: 20px;
         list-style: none;
     }
@@ -285,80 +302,144 @@ footer i:hover {
         color: #f3e9e9;
     }
 
-    .hero-container h1{
+    .hero-container h1 {
         font-size: 60px;
     }
 
-    .hero-container p{
+    .hero-container p {
         font-size: 25px;
     }
 
-    .button{
+    .button {
         width: 120px;
         height: 45px;
         font-size: 16px;
     }
 
-    .contact-container .section-text{
+    .contact-container .section-text {
         width: 50%;
     }
 
-    .section-text h2{
+    .section-text h2 {
         height: 100px;
-        font-size: 37px;
+        font-size: 38px;
     }
 
-    .section-text p{
+    .section-text p {
         font-size: 25px;
     }
 
     .card-item {
-        width:30%;
+        width: 30%;
         height: 200px;
         font-size: 30x;
-        
+        max-width: none;
     }
 
-    .quote-container{
+    .quote-container {
+        height: 400px;
+        font-size: 25px;
         margin: 50px 0;
-        padding:20px;
+        padding: 20px;
     }
 
-    .proyect-container{
+    .proyect-container {
         flex-direction: row;
         gap: 20px;
     }
 
-    .proyect-item{
-        width:45%
+    .proyect-item {
+        width: 45%
     }
 
-    .contact-container{
+    .contact-container {
         display: flex;
     }
 
-    .card-item img{
+    .card-item img {
         width: 150px;
     }
 
-    .card-item h5{
+    .card-item h5 {
         font-size: 25px;
     }
 
-    footer nav{
+    .form-container {
+        width: 80%;
+        max-width: 600px;
+    }
+
+    footer nav {
         display: flex;
         justify-content: center;
     }
 
-    footer nav ul{
+    footer nav ul {
         display: flex;
         gap: 20px;
         list-style: none;
     }
 
-    footer nav ul a{
+    footer nav ul a {
         text-decoration: none;
         color: #f3e9e9;
     }
 }
 
+@media (min-width: 1024px){
+
+    body{
+        font-size: 18px;
+    }
+
+    .hero-container{
+        height: 700px;
+    }
+
+    .hero-container h1{
+        font-size: 70px;
+        width: 60%;
+    }
+
+    .button{
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .cards-container{
+        gap: 2rem;
+    }
+
+    .card-item{
+        width: 190px;
+        height: auto;
+    }
+
+    .proyect-container{
+        gap: 40px;
+    }
+
+    .proyect-item{
+        width: 40%;
+    }
+
+    .form-container{
+        width: 60%;
+        max-width: 700px;
+        padding: 30px;
+    }
+
+    footer nav ul{
+        gap: 30px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    /* .section-text h2 {
+        height: 150px;
+        font-size: 60px;
+    } */
+}
