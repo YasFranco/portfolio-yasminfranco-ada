@@ -12,7 +12,7 @@ body {
 
 /* --------------- HEADER ---------------- */
 header {
-    width: 100vw;
+    width: 100%;
     /* margin: 10px */
 }
 
@@ -20,7 +20,7 @@ header img {
     height: 50px;
 }
 
-header nav {
+header .nav {
     display: none;
 }
 
@@ -246,6 +246,10 @@ footer {
     text-align: center;
 }
 
+footer .nav{
+    display: none;
+}
+
 footer i {
     transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -339,6 +343,22 @@ footer i:hover {
 
     .card-item h5{
         font-size: 25px;
+    }
+
+    footer nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer nav ul{
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+
+    footer nav ul a{
+        text-decoration: none;
+        color: #f3e9e9;
     }
 }
 
