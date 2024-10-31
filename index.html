@@ -15,31 +15,32 @@
 
 <body>
     <header>
-        <img src="./images/logo.jpg" alt="logo">
-        <nav>
-            <ul>
-                <li>inicio</li>
-                <li>conocimientos</li>
-                <li>proyectos</li>
-                <li>contacto</li>
-            </ul>
-        </nav>
+        <section id="inicio" class="header-container">
+            <img src="./images/logo.jpg" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#conocimientos">CONOCIMIENTOS</a></li>
+                    <li><a href="#proyectos">PROYECTOS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </section>
     </header>
     <main>
-        <section>
+        <section class="hero-bg">
             <div class="hero-container">
                 <h1>¡Hola Mundo!</h1>
                 <p>Soy <span>YASMIN FRANCO</span>, Desarrolladora Backend en
                     evolucion. Actualmente formandome en Frontend para
                     transformarme en fullstack</p>
-                <button class="button">Proyectos</button>
+                <button class="button"><a href="#Proyectos">Proyectos</a></button>
             </div>
         </section>
-        <section>
+        <section id="conocimientos">
             <div class="section-text">
                 <h2>Mis conocimientos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ea rerum distinctio a, repellat
-                    autem.</p>
+                <p>Lenguajes que utilizo para poder desarrollar mis proyectos.</p>
             </div>
             <div class="cards-container">
                 <div class="card-item">
@@ -76,7 +77,7 @@
                 <h5>someone</h5>
             </div>
         </section>
-        <section>
+        <section id="proyectos">
             <div class="section-text">
                 <h2>Mis Proyectos</h2>
                 <p>Estos son algunos de mis proyectos principales tanto de Backend como de Frontend. En cada uno se
@@ -96,23 +97,23 @@
                 </div>
             </div>
         </section>
-        <section>
-            <section>
+        <section id="contacto">
+            <section class="contact-container">
                 <div class="section-text">
                     <h2>Contactame</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, beatae? Eligendi soluta sapiente
                         tempore aliquam accusantium et obcaecati nesciunt, libero provident nostrum illo magni excepturi
                         aspernatur tempora impedit possimus ea.</p>
+                    <div class="social-container">
+                        <a href="https://github.com/YasFranco" aria-label="Mi Github"><i
+                                class="fa-brands fa-github"></i>Yasfranco</a>
+                        <a href="www.linkedin.com/in/yasmin-franco-" aria-label="Mi LinkedIn"><i
+                                class="fa-brands fa-linkedin"></i>Yasmin Franco</a>
+                        <a href="www.gmail.com" aria-label="Mi email"><i
+                                class="fa-solid fa-envelope"></i>yasfranco98@gmail.com</a>
+                    </div>
                 </div>
-                <div class="social-container">
-                    <a href="https://github.com/YasFranco" aria-label="Mi Github"><i
-                            class="fa-brands fa-github"></i>Yasfranco</a>
-                    <a href="www.linkedin.com/in/yasmin-franco-" aria-label="Mi LinkedIn"><i
-                            class="fa-brands fa-linkedin"></i>Yasmin Franco</a>
-                    <a href="www.gmail.com" aria-label="Mi email"><i
-                            class="fa-solid fa-envelope"></i>yasfranco98@gmail.com</a>
-                </div>
-                <div class="section-text">
+                <div class="section-text section-responsive">
                     <h2>Enviame un mensaje</h2>
                     <form action="" method="post" class="form-container">
                         <div>
